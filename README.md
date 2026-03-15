@@ -2,6 +2,7 @@ This project is a digital guitar tuner built using python
 
 
 The project contains 4 files:
+
 (1) AudioInputTest.py : a test script i wrote to see if i was getting a signal from my guitar and if the configuration for audio interface was set up correctly
 
 (2) fftPitchDetection.py : my first itteration / attempt at making a pitch detection algorithm, using a fourier transform. this script did not work as desired.

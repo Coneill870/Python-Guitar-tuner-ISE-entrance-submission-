@@ -3,7 +3,7 @@ This project is a digital guitar tuner built using python
 It takes a direct raw guitar input from an audio interface, finds the fundamental frequency of the input, maps said frequency to its closest musical note, and tells the user how far out of tune their guitar is and which way they need to tune (up or down)
 
 
-The project contains 4 files:
+The project contains 4 files (listed in order of creation):
 
 (1) Audio_Input_Test.py : a test script i wrote to see if i was getting a signal from my guitar and if the configuration for audio interface was set up correctly
 

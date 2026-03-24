@@ -16,4 +16,4 @@ The project contains 4 files:
 
 
 
-(note: all of the above files are independent (ie no files are imported in another file), with each one being an iteration of the final project )
+(note: all of the above files are independent (ie no files are imported in another file). each file is an itteration of the final project (Autocorrelation_Pitch_Detection+Tuner.py) )

@@ -54,11 +54,6 @@ def detect_pitch(signal): #using a fourier transform
 
     return peak_freq
 
-
-print("Guitar tuner - printing frequencies:")
-print("Ctrl+C to stop\n")
-
-
 # sound device repeatedly calls this function with new audio data from the audio interface
 # function requires middle 2 arguments to be present even if they're unused
 def audio_callback(indata, frames, time_info, status):

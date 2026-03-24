@@ -14,7 +14,7 @@ max_freq = 1200  # about 3 octaves up from this
 def detect_pitch(signal): #using Autocorrelation
     # DC offset: an imposed voltage shifting the average value, and subsequently the whole signal up or down.
     # magnitude of the offset = mean value of the signal
-    # (think midline of a basic sin function). this is removed for accurate pitch detection
+    # (think midline of a sin function). this is removed for accurate pitch detection
     signal = signal - np.mean(signal)
 
     # Very quiet signal > probably no note being played
@@ -90,9 +90,6 @@ def freq_to_note(freq):
     cents = 1200 * np.log2(freq / note_freq)
 
     return f"{note_name}{octave}", cents
-
-print("Guitar tuner frequencies:")
-print("Ctrl+C to stop\n")
 
 
 # Sound device repeatedly calls this function with new audio data from the audio interface

@@ -79,7 +79,7 @@ try:
         blocksize=block_size,
         callback=audio_callback
     ):
-        print("Press Enter to stop...\n")
+        print("Press Enter to stop\n")
         input()
     # waits forever until user enters something into console or just presses enter,
     # Allowing the code to continue running using no CPU space

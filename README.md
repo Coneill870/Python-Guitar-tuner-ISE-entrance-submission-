@@ -1,4 +1,4 @@
-This project is a digital guitar tuner built using python 
+This project is a digital guitar tuner built using python , which I made for my entrance submission into UL's ISE course.
 
 It takes a direct raw guitar input from an audio interface, finds the fundamental frequency of the input, maps said frequency to its closest musical note, and tells the user how far out of tune their guitar is and which way they need to tune (up or down)
 

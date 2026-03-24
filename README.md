@@ -13,3 +13,7 @@ The project contains 4 files:
 
 (4) Autocorrelation_Pitch_Detection+Tuner.py : This script itterates upon my Autocorrelation pitch detection algorithm, taking the detected frequency form the guitar and mapping it to a guitar note like a traditional tuner.
     This is curerntly the final itteration of the project
+
+
+
+(note: all of the above files are independent (ie no files are imported in another file), with each one being an iteration of the final project )
